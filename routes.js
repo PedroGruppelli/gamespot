@@ -10,7 +10,7 @@ routes.get("/jogos", JogoController.index)
       .post("/jogos", login, JogoController.store)
 
 
-routes.get("/usuarios", login, UsuarioController.index)
+routes.get("/usuarios", UsuarioController.index)
       .post("/usuarios", UsuarioController.store)
       .post("/login", UsuarioController.login)
 
